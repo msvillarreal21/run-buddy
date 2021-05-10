@@ -72,7 +72,24 @@ section {
 }
 
 /*hero Style Start */
-
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+/* Hero Style End */
+.hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
 .hero-form h3 {
     font-size: 24px;
     margin: 0;
@@ -99,28 +116,6 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-.hero {
-    background-image: url("/Users/mariasalomevillarreal/projects/run-buddy/assets/images/hero-bg.jpg");
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-   
-}
-/* Hero Style End */
-.hero-form {
-    border: 3px solid #024e76;
-    background-color: #fce138;
-    padding: 20px;
-    width: 500px;
-    color: #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
-}
 .intro {
     text-align: center;
 }
@@ -133,15 +128,12 @@ section {
     border-color: #fce138;
 }
 
-.intro h2 {
-    /* remove this entire CSS rule */
-    
-}
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
+    margin: 0 auto;
 }
 
 .intro p {
@@ -151,10 +143,6 @@ section {
 .steps {
     text-align: center;
     background: #fce138;
-}
-.steps h2 {
-    /*remove this rule also*/
-   
 }
 .section-title {
     font-size: 55px;
