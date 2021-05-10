@@ -67,6 +67,9 @@ footer a {
     color: #024e76;
 }
 
+section {
+    padding: 60px;
+}
 
 /*hero Style Start */
 
@@ -105,6 +108,7 @@ footer a {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+   
 }
 /* Hero Style End */
 .hero-form {
@@ -130,8 +134,8 @@ footer a {
 }
 
 .intro h2 {
-    /* add this alongside your other declarations */
-    display: inline-block;
+    /* remove this entire CSS rule */
+    
 }
 .intro p {
     line-height: 1.7;
@@ -143,4 +147,50 @@ footer a {
 .intro p {
     /* add this alongside your other declarations */
     margin: 0 auto;
+}
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+.steps h2 {
+    /*remove this rule also*/
+   
+}
+.section-title {
+    font-size: 55px;
+    color: 55px;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+.steps div{
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+.steps span {
+    font-size: 38px;
 }
