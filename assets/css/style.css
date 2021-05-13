@@ -243,6 +243,8 @@ section {
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
+    display: inline-block;
+    vertical-align: top;
 }
 .contact-info a {
     color: #fce138;
